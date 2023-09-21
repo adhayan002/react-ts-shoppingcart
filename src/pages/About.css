@@ -1,0 +1,14 @@
+.imgstylebout{
+    width: 20vw;
+}
+
+@media only screen and (max-width: 768px) {
+    .imgstylebout{
+        width: 20vh;
+        height: 20vh;
+        object-fit: contain;
+    }
+    .text{
+        width: 40vw;
+    }
+}
